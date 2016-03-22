@@ -1,0 +1,55 @@
+﻿生成启动时间为 2013/5/16 星期四 18:34:05。
+     1>项目“D:\编程\C++\泡泡堂\Game2012\PPT2012\PPT2012.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\PPT2012.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\Zephyr3_SDK\Inc /I..\..\ZephyrDebug\Inc /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _ZEPHYR_NET_21__ /D _ZEPHYR3_USE_ZEPHYRDEBUG_ /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\PPT2012.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PPT2012Dlg.cpp
+         PPT2012Dlg.cpp
+     1>d:\编程\c++\泡泡堂\zephyr3_sdk\inc\graph\zspritemanager.h(41): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\编程\c++\泡泡堂\zephyr3_sdk\inc\graph\zspritemanager.h(52): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\编程\c++\泡泡堂\zephyr3_sdk\inc\se_exception.h(49): warning C4535: 调用 _set_se_translator() 需要 /EHa
+     1>d:\编程\c++\泡泡堂\game2012\ppt2012\ppt2012dlg.cpp(141): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\编程\c++\泡泡堂\zephyr3_sdk\inc\zstate.h(25): warning C4800: “unsigned long”: 将值强制为布尔值“true”或“false”(性能警告)
+                 d:\编程\c++\泡泡堂\zephyr3_sdk\inc\zstate.h(25): 编译类 模板 成员函数“bool ZState<TYPE>::Has(TYPE) const”时
+                 with
+                 [
+                     TYPE=DWORD
+                 ]
+                 d:\编程\c++\泡泡堂\zephyr3_sdk\inc\graph\zfont_2.h(25): 参见对正在编译的类 模板 实例化“ZState<TYPE>”的引用
+                 with
+                 [
+                     TYPE=DWORD
+                 ]
+     1>d:\编程\c++\泡泡堂\zephyr3_sdk\inc\zstate.h(25): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+                 d:\编程\c++\泡泡堂\zephyr3_sdk\inc\zstate.h(25): 编译类 模板 成员函数“bool ZState<TYPE>::Has(TYPE) const”时
+                 with
+                 [
+                     TYPE=BYTE
+                 ]
+                 d:\编程\c++\泡泡堂\zephyr3_sdk\inc\graph\zarea.h(73): 参见对正在编译的类 模板 实例化“ZState<TYPE>”的引用
+                 with
+                 [
+                     TYPE=BYTE
+                 ]
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\编程\C++\泡泡堂\Game2012\Debug\PPT2012.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\Zephyr3_SDK\Lib\Ex_FlyingMagicClient Zephyr3ExD.lib /MANIFEST /ManifestFile:"Debug\PPT2012.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\编程\C++\泡泡堂\Game2012\Debug\PPT2012.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\编程\C++\泡泡堂\Game2012\Debug\PPT2012.lib" /MACHINE:X86 Debug\PPT2012.res
+         Debug\PPT2012.obj
+         Debug\PPT2012Dlg.obj
+         Debug\stdafx.obj
+         PPT2012.vcxproj -> D:\编程\C++\泡泡堂\Game2012\Debug\PPT2012.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\编程\C++\泡泡堂\Game2012\Debug\PPT2012.exe.manifest" /manifest Debug\PPT2012.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Debug\PPT2012.unsuccessfulbuild”。
+         正在对“Debug\PPT2012.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\编程\C++\泡泡堂\Game2012\PPT2012\PPT2012.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.77
